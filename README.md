@@ -82,7 +82,7 @@ Clone this repository to your desired folder:
   git clone https://github.com/adeola003/deola-s_hub.git
   cd deola-s_hub
 ```
-> Install Gemfile
+> Install modules
 
 ```
 $ bundle install
