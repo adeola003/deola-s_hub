@@ -1,23 +1,22 @@
 
 .left-image {
-    height: 500px;
-    width: 30vw;
-    max-width: 400px;
-    border-radius: 10px;
+  height: 500px;
+  width: 30vw;
+  max-width: 400px;
+  border-radius: 10px;
 }
 
 .actions {
-    margin-top: 20px;
-    margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .sr-only {
-    display: none !important;
+  display: none !important;
 }
 
 @media screen and (max-width: 768px) {
-    .landing-left {
-        display: none !important;
-    }
-
+  .landing-left {
+    display: none !important;
+  }
 }
