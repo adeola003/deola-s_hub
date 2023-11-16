@@ -12,13 +12,13 @@
       </form>
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <%= link_to 'Home', root_path, class: "nav-link" %>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Explore</a>
+          <%= link_to 'Explore', user_path(current_user), class: "nav-link" %>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Profile</a>
+          <%= link_to 'Profile', user_path(current_user), method: :get, class: "nav-link" %>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Notifications</a>

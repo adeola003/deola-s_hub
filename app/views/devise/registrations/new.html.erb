@@ -1,7 +1,7 @@
 <%= stylesheet_link_tag 'devise' %>
 <div class="container">
   <div class="row">
-    <div class="col-md-6 landing-left">
+    <div class="col-md-6 landing-left align-item-center">
       <%= image_tag 'deola_hub', class: "left-image" %>
     </div>
     <div class="col-md-6 landing-right text-align-center d-flex align-items-center">
@@ -15,8 +15,7 @@
               <%= f.label :first_name, class: "sr-only" %><br />
               <%= f.text_field :first_name, autofocus: true, autocomplete: "first_name", placeholder: "First name", class: "form-control"%>
             </div>
-
-            <div class="form-group">
+             <div class="form-group">
               <%= f.label :last_name, class: "sr-only" %><br />
               <%= f.text_field :last_name, autofocus: true, placeholder: "Last name", autocomplete: "last_name", class: "form-control"%>
             </div>

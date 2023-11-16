@@ -1,6 +1,9 @@
-<h1>Pages#home</h1>
-<button class="btn btn-primary">Click Me</button>
-<div class="alert alert-success" role="alert">
+<div class="container">
+  <h1>Pages#home</h1>
+  <button class="btn btn-primary">Click Me</button>
+  <div class="alert alert-success" role="alert">
   This is a Bootstrap alert.
+  </div>
+  <%= button_to "Log out", destroy_user_session_path, method: :delete, class: "btn btn-danger" %>
 </div>
-<%= button_to "Log out", destroy_user_session_path, method: :delete %>
+
