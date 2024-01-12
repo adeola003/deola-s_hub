@@ -16,8 +16,22 @@
 }
 
 
+//Edith user form
+
+.edit-box {
+  max-width: 60vw;
+}
+
+
+
 @media screen and (max-width: 768px) {
   .landing-left {
     display: none !important;
   }
+
+  //Edith user form
+
+.edit-box {
+  width: 80vw;
+}
 }
